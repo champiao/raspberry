@@ -1,0 +1,8 @@
+@lxpanel --profile LXDE-pi
+@pcmanfm --desktop --profile LXDE-pi
+@xscreensaver -no-splash
+@pcmanfm -desktop -profile LXDE-pi
+@xset s off
+@xset -dpms
+@xset s noblank
+@chromium --disable-infobars --noerrordialogs --disable-session-crashed-bubble --disk-cache-dir=/dev/shm/chromium-cache --disk-cache-size=400000000 https://app.radioatmosfera.com.br
